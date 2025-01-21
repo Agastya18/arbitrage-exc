@@ -54,7 +54,7 @@ function App() {
 
   useEffect(() => {
     scanArbitrageOpportunities();
-    const interval = setInterval(scanArbitrageOpportunities, 30000); // Scan every 30 seconds
+    const interval = setInterval(scanArbitrageOpportunities, 60000); // Scan every 60 seconds
     return () => clearInterval(interval);
   }, []);
 

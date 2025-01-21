@@ -5,7 +5,7 @@ A real-time arbitrage scanner that monitors price differences between Binance (C
 ## Features
 
 - Real-time price monitoring for SOL/USDC
-- Automatic price updates every 30 seconds
+- Automatic price updates every 60 seconds
 - Price comparison between Binance and Solana DEX
 - Profit calculation including trading fees
 - Clean and responsive user interface
