@@ -30,8 +30,8 @@ A real-time arbitrage scanner that monitors price differences between Binance (C
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd sol-usdc-arbitrage-scanner
+git clone < https://github.com/Agastya18/arbitrage-exc.git >
+cd arbitrage-exc
 ```
 
 2. Install dependencies:
@@ -50,8 +50,7 @@ The application includes several configurable parameters in `src/utils/arbitrage
 
 - `BINANCE_TAKER_FEE`: 0.1% (0.001)
 - `DEX_SWAP_FEE`: 0.3% (0.003)
-- `SOLANA_TX_COST`: 0.000005 SOL
-- `minProfitThreshold`: 0.5% (configurable in calculateArbitrage function)
+- `minProfitThreshold`: 0.2% (configurable in calculateArbitrage function)
 
 ## Project Structure
 
@@ -96,27 +95,8 @@ The application includes comprehensive error handling for:
 - Network timeouts
 - Rate limiting
 
-## Development
 
-### Available Scripts
-
-- `npm run dev`: Start development server
-- `npm run build`: Build for production
-- `npm run preview`: Preview production build
-- `npm run lint`: Run ESLint
-
-### Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
 
 ## License
 
 MIT License - feel free to use this project for your own purposes.
-
-## Disclaimer
-
-This tool is for educational purposes only. Cryptocurrency trading carries significant risks. Always do your own research and never trade with money you cannot afford to lose.
