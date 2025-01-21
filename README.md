@@ -2,6 +2,9 @@
 
 A real-time arbitrage scanner that monitors price differences between Binance (CEX) and Solana DEX for SOL/USDC trading pair. The application helps identify profitable trading opportunities by comparing prices and calculating potential profits after fees.
 
+<img width="1440" alt="Screenshot 2025-01-21 at 8 21 01 PM" src="https://github.com/user-attachments/assets/eca9e8a0-618b-44f8-ad5b-7b3e06431094" />
+
+
 ## Features
 
 - Real-time price monitoring for SOL/USDC
